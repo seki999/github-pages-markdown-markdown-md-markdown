@@ -142,10 +142,12 @@ https://USERNAME.github.io/REPOSITORY/?file=docs/ai/agent.md#architecture
 1. 创建 GitHub 仓库并把本项目全部文件推送到 `main` 或 `master` 分支。
 2. 打开仓库的 **Settings → Pages**。
 3. 在 **Build and deployment → Source** 中选择 **GitHub Actions**。
-4. 推送后，等待 **Deploy Markdown Viewer to GitHub Pages** 工作流完成。
+4. 完成上述设置后，再推送一次提交或在 Actions 页面手动重新运行 **Deploy Markdown Viewer to GitHub Pages**。
 5. Pages 页面会显示最终访问地址。
 
 工作流会先扫描 `docs/` 并生成最新索引，再发布整个静态站点。项目全部使用相对路径，因此部署在 `https://USERNAME.github.io/REPOSITORY/` 时无需修改配置。
+
+如果 `Configure Pages` 报错 `Get Pages site failed` 或 `HttpError: Not Found`，说明仓库尚未启用 Pages，或 Source 尚未选择 **GitHub Actions**。先完成第 2～3 步，再重新运行失败的工作流；无需添加 PAT，也不要把访问令牌写进工作流。
 
 ### 不使用 Actions
 
