@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="粘贴 Markdown 并实时预览渲染效果">
+    <title>粘贴预览 · Markdown 文档中心</title>
+
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markdown-it-texmath@1.0.0/css/texmath.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.11.1/styles/github.min.css" id="highlight-theme-light">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.11.1/styles/github-dark.min.css" id="highlight-theme-dark" disabled>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/preview.css">
+  </head>
+  <body class="preview-page">
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="返回文档浏览器">
+        <span class="brand-mark" aria-hidden="true">M↓</span>
+        <span>Markdown 文档中心</span>
+      </a>
+      <span class="topbar-divider" aria-hidden="true"></span>
+      <span class="current-file">粘贴预览</span>
+      <a class="preview-link" href="./">返回文档</a>
+      <button class="theme-button" id="theme-button" type="button" aria-label="切换深色模式">
+        <span id="theme-icon" aria-hidden="true">☾</span>
+        <span id="theme-label">深色</span>
+      </button>
+    </header>
+
+    <main class="preview-layout">
+      <section class="editor-pane" aria-labelledby="editor-title">
+        <header class="pane-header">
+          <div>
+            <h1 id="editor-title">Markdown 内容</h1>
+            <p>把完整的 Markdown 文本粘贴到下方</p>
+          </div>
+          <button class="secondary-button" id="clear-button" type="button">清空</button>
+        </header>
+        <textarea id="markdown-input" aria-label="Markdown 内容" spellcheck="false" autofocus placeholder="# 在这里粘贴 Markdown
+
+支持 Mermaid、KaTeX、代码块、表格、图片和常用 HTML。"></textarea>
+        <footer class="editor-footer">
+          <span id="editor-count">0 个字符</span>
+          <span>相对图片路径从 <code>docs/</code> 开始解析</span>
+        </footer>
+      </section>
+
+      <section class="preview-pane" aria-labelledby="preview-heading">
+        <header class="pane-header preview-pane-header">
+          <div>
+            <h2 id="preview-heading">实时效果</h2>
+            <p id="render-status" role="status">等待输入</p>
+          </div>
+        </header>
+        <article class="preview-document" id="preview-document">
+          <div class="preview-empty" id="preview-empty">
+            <span aria-hidden="true">✦</span>
+            <h2>在左侧粘贴 Markdown</h2>
+            <p>输入后会自动在这里显示最终发布效果。</p>
+          </div>
+          <header class="document-header" id="preview-title-wrap" hidden>
+            <p class="document-path">临时预览，不会上传或保存</p>
+            <h1 id="preview-title"></h1>
+          </header>
+          <div class="markdown-body" id="preview-content"></div>
+        </article>
+      </section>
+    </main>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/markdown-it@14.1.0/dist/markdown-it.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/markdown-it-task-lists@2.1.1/dist/markdown-it-task-lists.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/markdown-it-texmath@1.0.0/texmath.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.11.1/highlight.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/dompurify@3.2.4/dist/purify.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.min.js"></script>
+    <script defer src="./js/markdown.js"></script>
+    <script defer src="./js/preview.js"></script>
+  </body>
+</html>

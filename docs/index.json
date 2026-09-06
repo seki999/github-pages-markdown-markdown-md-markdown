@@ -20,6 +20,10 @@
     {
       "path": "docs/mermaid-demo.md",
       "title": "Mermaid 图表示例"
+    },
+    {
+      "path": "docs/TOEIC_990_Study_Edition_Web_Package/TOEIC_990_Business_Story_Study_Edition_Web.md",
+      "title": "TOEIC 990 商务剧情故事：精读背诵版（Web Study Edition）"
     }
   ]
 }

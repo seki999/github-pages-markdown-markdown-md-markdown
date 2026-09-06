@@ -13,6 +13,7 @@
 - KaTeX 行内与块级数学公式
 - 自动 TOC 与标题锚点
 - `?file=docs/example.md` 文档直链
+- 独立的 Markdown 粘贴实时预览页面
 - Markdown 相对链接自动转换为阅读器直链
 - GitHub Actions 部署时自动生成文档索引
 
@@ -134,6 +135,18 @@ https://USERNAME.github.io/REPOSITORY/?file=docs/ai/agent.md
 ```text
 https://USERNAME.github.io/REPOSITORY/?file=docs/ai/agent.md#architecture
 ```
+
+## 粘贴并预览 Markdown
+
+点击网站顶部的 **粘贴预览**，或直接打开 `preview.html`。把 Markdown 文本粘贴到左侧编辑框，右侧会实时显示与正式文档相同的渲染效果，包括 Mermaid、KaTeX、代码高亮、表格、任务列表和常用 HTML。
+
+预览内容只保留在当前页面内，不会上传到服务器，也不会自动保存。网络图片可以直接显示；相对图片路径以项目的 `docs/` 目录为基准。例如：
+
+```md
+![示例](./images/example.png)
+```
+
+对应仓库文件应位于 `docs/images/example.png`。
 
 ## 部署到 GitHub Pages
 
