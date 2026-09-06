@@ -138,7 +138,7 @@ https://USERNAME.github.io/REPOSITORY/?file=docs/ai/agent.md#architecture
 
 ## 粘贴并预览 Markdown
 
-点击网站顶部的 **粘贴预览**，或直接打开 `preview.html`。把 Markdown 文本粘贴到左侧编辑框，右侧会实时显示与正式文档相同的渲染效果，包括 Mermaid、KaTeX、代码高亮、表格、任务列表和常用 HTML。
+点击网站顶部的 **粘贴预览**，或直接打开 `preview.html`。把 Markdown 文本粘贴到左侧编辑框，右侧会实时显示与正式文档相同的渲染效果，包括 Mermaid、KaTeX、代码高亮、表格、任务列表和常用 HTML。拖动两栏中间的分隔线可以调整宽度，双击分隔线可恢复默认比例。
 
 预览内容只保留在当前页面内，不会上传到服务器，也不会自动保存。网络图片可以直接显示；相对图片路径以项目的 `docs/` 目录为基准。例如：
 
