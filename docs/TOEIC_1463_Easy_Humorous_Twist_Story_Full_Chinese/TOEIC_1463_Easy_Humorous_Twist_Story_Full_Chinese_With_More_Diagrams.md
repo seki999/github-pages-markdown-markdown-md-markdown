@@ -11,9 +11,147 @@
 - 最后看“本段词汇讲解”，复习粗体目标词。
 - 故事故意使用非常简单、重复度较高的句型，以降低阅读难度；重点是把 1463 个词全部放进同一个有剧情、有反转的故事框架里。
 
+
+## 故事导航增强版
+
+> 下面新增了一组 **Mermaid 流程图 / 关系图 / 时间线图**，帮助你在正式阅读 1463 个词汇故事段落之前，先快速看懂整条剧情线。
+
+### 1）全篇总流程图
+
+```mermaid
+flowchart TD
+    A[世界万物节开幕] --> B[巨型三明治失踪]
+    B --> C[米娅开始调查]
+    C --> D[嫌疑人越来越多]
+    D --> E[笔记本/银行/医院/科学馆线索出现]
+    E --> F[记者与竞选让局势失控]
+    F --> G[夜间搜查与工厂调查]
+    G --> H[机器人“认罪”]
+    H --> I[大家开始怀疑市长]
+    I --> J[冷藏室竟然是空的]
+    J --> K[第二次反转：可能丢的不是实物三明治]
+    K --> L[最终反转：真正的三明治其实早被吃掉]
+    L --> M[结局：大家追了一整天，追的是展示模型]
+```
+
+### 2）人物关系图
+
+```mermaid
+flowchart LR
+    MIA[Mia\n主角 / 调查者]
+    MAYOR[Mayor\n市长 / 夸口者 / 被怀疑者]
+    GOAT[Sir Biscuit\n山羊 / 吃海报专家]
+    REPORTER[Reporter\n记者 / 让局面更糟的人]
+    ROBOT[Robot\n机器人 / 假性认罪者]
+    TOWN[Town People\n全镇居民 / 集体误会制造机]
+    SANDWICH[Golden Bite\n巨型三明治]
+    MODEL[Foam Display Model\n泡沫展示模型]
+
+    MIA -->|调查| SANDWICH
+    MAYOR -->|保证不会丢| SANDWICH
+    TOWN -->|疯狂讨论| MAYOR
+    REPORTER -->|放大误会| TOWN
+    ROBOT -->|提供误导性信息| MIA
+    GOAT -->|吃掉海报与证据边角| TOWN
+    MIA -->|最终发现区别| MODEL
+    SANDWICH -->|真正结局| TOWN
+    MODEL -->|被误认为失踪物| TOWN
+```
+
+### 3）时间线图
+
+```mermaid
+flowchart LR
+    T1[Festival Start\n节日开始] --> T2[10 minutes later\n三明治失踪]
+    T2 --> T3[First suspect\n第一嫌疑人]
+    T3 --> T4[Notebook clue\n笔记本线索]
+    T4 --> T5[Bank clue\n银行线索]
+    T5 --> T6[Hospital detour\n医院绕路]
+    T6 --> T7[Science Hall\n科学馆证据]
+    T7 --> T8[Reporter chaos\n记者添乱]
+    T8 --> T9[Election noise\n竞选噪音]
+    T9 --> T10[Night search\n夜间搜查]
+    T10 --> T11[Factory door\n工厂线索]
+    T11 --> T12[Robot confession\n机器人认罪]
+    T12 --> T13[Mayor blamed\n市长被怀疑]
+    T13 --> T14[Empty cold room\n空冷藏室]
+    T14 --> T15[Second twist\n第二反转]
+    T15 --> T16[Final twist\n最终反转]
+```
+
+### 4）悬疑推进图：线索是怎样一步步跑偏的
+
+```mermaid
+flowchart TD
+    C1[三明治失踪] --> C2[先怀疑有人偷走]
+    C2 --> C3[发现奇怪笔记本]
+    C3 --> C4[误以为银行有关系]
+    C4 --> C5[又误以为医院有关系]
+    C5 --> C6[科学馆给出更多“像线索的东西”]
+    C6 --> C7[记者把误会升级成舆论]
+    C7 --> C8[竞选把误会升级成政治戏]
+    C8 --> C9[机器人认罪让大家更糊涂]
+    C9 --> C10[冷藏室为空，说明方向错了]
+    C10 --> C11[最终发现真正丢的是泡沫模型]
+```
+
+### 5）反转结构图
+
+```mermaid
+flowchart LR
+    A1[表面真相\n三明治被偷了] --> A2[第一层变化\n嫌疑人越来越多]
+    A2 --> A3[第二层变化\n机器人居然认罪]
+    A3 --> A4[关键反转\n冷藏室里没有三明治]
+    A4 --> A5[终极真相\n真三明治早被大家吃掉]
+    A5 --> A6[真正失踪物\n只是展示用泡沫模型]
+```
+
+### 6）章节地图
+
+| 章节 | 中文概括 |
+|---|---|
+| Chapter 1 | 节日开场，巨型三明治失踪 |
+| Chapter 2 | 第一名嫌疑人出现，调查开始跑偏 |
+| Chapter 3 | 神秘笔记本带来更多古怪线索 |
+| Chapter 4 | 银行线索出现，但真相反而更远 |
+| Chapter 5 | 调查意外拐到医院方向 |
+| Chapter 6 | 科学馆中的证据让局面更混乱 |
+| Chapter 7 | 记者把事件越报道越离谱 |
+| Chapter 8 | 不必要的竞选把案件政治化 |
+| Chapter 9 | 夜间搜查展开，气氛升级 |
+| Chapter 10 | 工厂大门后的线索似乎指向真相 |
+| Chapter 11 | 机器人“认罪”，但明显不太对劲 |
+| Chapter 12 | 全镇开始集体怀疑市长 |
+| Chapter 13 | 冷藏室是空的，真相再次反转 |
+| Chapter 14 | 第二次重大反转：丢失物可能根本不是实物 |
+| Chapter 15 | 最终反转：真正吃掉的和真正丢的并不是同一样东西 |
+| Ending | 结局揭晓：大家早就把真三明治吃掉了 |
+
+---
+
 ---
 
 ## Chapter 1 — The Festival Begins
+
+
+### 本章剧情导图
+
+> 节日开场，巨型三明治神秘失踪
+
+```mermaid
+flowchart LR
+    A[节日开幕] --> B[市长夸口不会丢] --> C[十分钟后真的丢了]
+```
+
+### 本章在线索链中的位置
+
+```mermaid
+flowchart TD
+    X[上一阶段] --> Y[节日开幕]
+    Y --> Z[市长夸口不会丢]
+    Z --> W[十分钟后真的丢了]
+    W --> N[下一阶段继续扩大误会]
+```
 
 ### 第一章——奇怪的节日开始
 
@@ -296,6 +434,26 @@ Someone tried to **brand** before Mia could ask why. Mia found a note about **br
 
 ## Chapter 2 — The First Suspect
 
+
+### 本章剧情导图
+
+> 第一名嫌疑人出现，调查开始跑偏
+
+```mermaid
+flowchart LR
+    A[锁定第一嫌疑人] --> B[大家各说各话] --> C[调查开始失控]
+```
+
+### 本章在线索链中的位置
+
+```mermaid
+flowchart TD
+    X[上一阶段] --> Y[锁定第一嫌疑人]
+    Y --> Z[大家各说各话]
+    Z --> W[调查开始失控]
+    W --> N[下一阶段继续扩大误会]
+```
+
 ### 第二章——第一位嫌疑人
 
 ### Story
@@ -576,6 +734,26 @@ Someone tried to **cripple** before Mia could ask why. Mia found a note about **
 ---
 
 ## Chapter 3 — The Strange Notebook
+
+
+### 本章剧情导图
+
+> 神秘笔记本带来更多古怪线索
+
+```mermaid
+flowchart LR
+    A[发现笔记本] --> B[记录充满怪词] --> C[线索增加但更混乱]
+```
+
+### 本章在线索链中的位置
+
+```mermaid
+flowchart TD
+    X[上一阶段] --> Y[发现笔记本]
+    Y --> Z[记录充满怪词]
+    Z --> W[线索增加但更混乱]
+    W --> N[下一阶段继续扩大误会]
+```
 
 ### 第三章——奇怪的笔记本
 
@@ -858,6 +1036,26 @@ A sign near the next clue mentioned **ethnic minority**, which seemed oddly spec
 
 ## Chapter 4 — The Bank Clue
 
+
+### 本章剧情导图
+
+> 银行线索出现，但真相反而更远
+
+```mermaid
+flowchart LR
+    A[银行线索出现] --> B[大家以为接近真相] --> C[其实只是误导]
+```
+
+### 本章在线索链中的位置
+
+```mermaid
+flowchart TD
+    X[上一阶段] --> Y[银行线索出现]
+    Y --> Z[大家以为接近真相]
+    Z --> W[其实只是误导]
+    W --> N[下一阶段继续扩大误会]
+```
+
 ### 第四章——银行里的线索
 
 ### Story
@@ -1138,6 +1336,26 @@ The town report mentioned **institution**, and Mia underlined it twice. Mia foun
 ---
 
 ## Chapter 5 — The Hospital Detour
+
+
+### 本章剧情导图
+
+> 调查意外拐到医院方向
+
+```mermaid
+flowchart LR
+    A[线索转向医院] --> B[调查队伍继续绕路] --> C[案件更加离谱]
+```
+
+### 本章在线索链中的位置
+
+```mermaid
+flowchart TD
+    X[上一阶段] --> Y[线索转向医院]
+    Y --> Z[调查队伍继续绕路]
+    Z --> W[案件更加离谱]
+    W --> N[下一阶段继续扩大误会]
+```
 
 ### 第五章——医院里的岔路
 
@@ -1420,6 +1638,26 @@ The guide called the situation **overt**, and Mia wrote the word down. The mayor
 
 ## Chapter 6 — The Science Hall
 
+
+### 本章剧情导图
+
+> 科学馆中的证据让局面更混乱
+
+```mermaid
+flowchart LR
+    A[进入科学馆] --> B[看到新证据] --> C[科学也救不了混乱]
+```
+
+### 本章在线索链中的位置
+
+```mermaid
+flowchart TD
+    X[上一阶段] --> Y[进入科学馆]
+    Y --> Z[看到新证据]
+    Z --> W[科学也救不了混乱]
+    W --> N[下一阶段继续扩大误会]
+```
+
 ### 第六章——科学馆
 
 ### Story
@@ -1700,6 +1938,26 @@ Someone tried to **restrict** before Mia could ask why. Mia found a note about *
 ---
 
 ## Chapter 7 — The Reporter Makes It Worse
+
+
+### 本章剧情导图
+
+> 记者把事件越报道越离谱
+
+```mermaid
+flowchart LR
+    A[记者介入] --> B[报道越传越夸张] --> C[全镇一起误会]
+```
+
+### 本章在线索链中的位置
+
+```mermaid
+flowchart TD
+    X[上一阶段] --> Y[记者介入]
+    Y --> Z[报道越传越夸张]
+    Z --> W[全镇一起误会]
+    W --> N[下一阶段继续扩大误会]
+```
 
 ### 第七章——记者把事情搞得更糟
 
@@ -1982,6 +2240,26 @@ A sign near the next clue mentioned **trade union**, which seemed oddly specific
 
 ## Chapter 8 — The Election Nobody Needed
 
+
+### 本章剧情导图
+
+> 不必要的竞选把案件政治化
+
+```mermaid
+flowchart LR
+    A[案件政治化] --> B[竞选口号满天飞] --> C[真相更被遮住]
+```
+
+### 本章在线索链中的位置
+
+```mermaid
+flowchart TD
+    X[上一阶段] --> Y[案件政治化]
+    Y --> Z[竞选口号满天飞]
+    Z --> W[真相更被遮住]
+    W --> N[下一阶段继续扩大误会]
+```
+
 ### 第八章——根本没必要的选举
 
 ### Story
@@ -2262,6 +2540,26 @@ Someone tried to **arrest** before Mia could ask why. Mia found a note about **a
 ---
 
 ## Chapter 9 — The Night Search
+
+
+### 本章剧情导图
+
+> 夜间搜查展开，气氛升级
+
+```mermaid
+flowchart LR
+    A[夜搜开始] --> B[气氛紧张] --> C[线索仍不可靠]
+```
+
+### 本章在线索链中的位置
+
+```mermaid
+flowchart TD
+    X[上一阶段] --> Y[夜搜开始]
+    Y --> Z[气氛紧张]
+    Z --> W[线索仍不可靠]
+    W --> N[下一阶段继续扩大误会]
+```
 
 ### 第九章——夜间搜查
 
@@ -2544,6 +2842,26 @@ Someone tried to **compensate** before Mia could ask why. The mayor said they mi
 
 ## Chapter 10 — The Factory Door
 
+
+### 本章剧情导图
+
+> 工厂大门后的线索似乎指向真相
+
+```mermaid
+flowchart LR
+    A[找到工厂门口] --> B[大家冲向新地点] --> C[希望和误会并存]
+```
+
+### 本章在线索链中的位置
+
+```mermaid
+flowchart TD
+    X[上一阶段] --> Y[找到工厂门口]
+    Y --> Z[大家冲向新地点]
+    Z --> W[希望和误会并存]
+    W --> N[下一阶段继续扩大误会]
+```
+
 ### 第十章——工厂大门
 
 ### Story
@@ -2824,6 +3142,26 @@ Someone tried to **disband** before Mia could ask why. The mayor said they might
 ---
 
 ## Chapter 11 — The Robot Confesses
+
+
+### 本章剧情导图
+
+> 机器人“认罪”，但明显不太对劲
+
+```mermaid
+flowchart LR
+    A[机器人开口] --> B[似乎主动认罪] --> C[所有人更加困惑]
+```
+
+### 本章在线索链中的位置
+
+```mermaid
+flowchart TD
+    X[上一阶段] --> Y[机器人开口]
+    Y --> Z[似乎主动认罪]
+    Z --> W[所有人更加困惑]
+    W --> N[下一阶段继续扩大误会]
+```
 
 ### 第十一章——机器人“招供”
 
@@ -3106,6 +3444,26 @@ The town report mentioned **gene**, and Mia underlined it twice. The mayor said 
 
 ## Chapter 12 — Everyone Blames the Mayor
 
+
+### 本章剧情导图
+
+> 全镇开始集体怀疑市长
+
+```mermaid
+flowchart LR
+    A[舆论指向市长] --> B[怀疑迅速扩散] --> C[市长快顶不住了]
+```
+
+### 本章在线索链中的位置
+
+```mermaid
+flowchart TD
+    X[上一阶段] --> Y[舆论指向市长]
+    Y --> Z[怀疑迅速扩散]
+    Z --> W[市长快顶不住了]
+    W --> N[下一阶段继续扩大误会]
+```
+
 ### 第十二章——大家开始怪市长
 
 ### Story
@@ -3386,6 +3744,26 @@ The town report mentioned **merchandise**, and Mia underlined it twice. The mayo
 ---
 
 ## Chapter 13 — The Empty Cold Room
+
+
+### 本章剧情导图
+
+> 冷藏室是空的，真相再次反转
+
+```mermaid
+flowchart LR
+    A[打开冷藏室] --> B[发现里面是空的] --> C[关键误解浮现]
+```
+
+### 本章在线索链中的位置
+
+```mermaid
+flowchart TD
+    X[上一阶段] --> Y[打开冷藏室]
+    Y --> Z[发现里面是空的]
+    Z --> W[关键误解浮现]
+    W --> N[下一阶段继续扩大误会]
+```
 
 ### 第十三章——空掉的冷藏库
 
@@ -3668,6 +4046,26 @@ The town report mentioned **project**, and Mia underlined it twice. The old plan
 
 ## Chapter 14 — The Second Twist
 
+
+### 本章剧情导图
+
+> 第二次重大反转：丢失物可能根本不是实物
+
+```mermaid
+flowchart LR
+    A[重新整理证据] --> B[发现模型与实物可能不同] --> C[第二反转成立]
+```
+
+### 本章在线索链中的位置
+
+```mermaid
+flowchart TD
+    X[上一阶段] --> Y[重新整理证据]
+    Y --> Z[发现模型与实物可能不同]
+    Z --> W[第二反转成立]
+    W --> N[下一阶段继续扩大误会]
+```
+
 ### 第十四章——第二次反转
 
 ### Story
@@ -3949,6 +4347,26 @@ The town report mentioned **status**, and Mia underlined it twice. The mayor sai
 
 ## Chapter 15 — The Final Twist
 
+
+### 本章剧情导图
+
+> 最终反转：真正吃掉的和真正丢的并不是同一样东西
+
+```mermaid
+flowchart LR
+    A[最终核对时间线] --> B[拼出真正经过] --> C[全镇尴尬沉默]
+```
+
+### 本章在线索链中的位置
+
+```mermaid
+flowchart TD
+    X[上一阶段] --> Y[最终核对时间线]
+    Y --> Z[拼出真正经过]
+    Z --> W[全镇尴尬沉默]
+    W --> N[下一阶段继续扩大误会]
+```
+
 ### 第十五章——最终反转
 
 ### Story
@@ -4209,6 +4627,51 @@ The town report mentioned **workforce**, and Mia underlined it twice. The old pl
 ---
 
 ## Ending — What Really Happened?
+
+
+### 真相还原图
+
+```mermaid
+flowchart TD
+    A[大家看见了巨型三明治] --> B[大家以为它一直还在]
+    B --> C[实际上真三明治早已被分食]
+    C --> D[节日现场留下的是展示模型]
+    D --> E[后来模型不见了]
+    E --> F[所有人误以为“真三明治失踪”]
+    F --> G[米娅最终理清：被找了一整天的是泡沫模型]
+```
+
+### 幽默反转总结图
+
+```mermaid
+flowchart LR
+    S1[大家很紧张] --> S2[嫌疑人越来越多]
+    S2 --> S3[记者越报越夸张]
+    S3 --> S4[机器人也来认罪]
+    S4 --> S5[市长差点背锅]
+    S5 --> S6[最后发现：真东西早吃完了]
+    S6 --> S7[全镇一起尴尬]
+```
+
+
+### 本章剧情导图
+
+> 结局揭晓：大家早就把真三明治吃掉了
+
+```mermaid
+flowchart LR
+    A[真相公布] --> B[大家意识到早吃完了] --> C[案件以笑话收场]
+```
+
+### 本章在线索链中的位置
+
+```mermaid
+flowchart TD
+    X[上一阶段] --> Y[真相公布]
+    Y --> Z[大家意识到早吃完了]
+    Z --> W[案件以笑话收场]
+    W --> N[下一阶段继续扩大误会]
+```
 
 Mia finally laughed. Nobody had stolen the real sandwich. Everyone had already eaten it at breakfast. The missing “Golden Bite” was only a foam model. Sir Biscuit had eaten some of the fake crumbs, the mayor had forgotten his own storage plan, and the whole town had created a giant mystery out of a problem that did not exist. Nina turned off her camera and said, “This is the best story I have ever reported, because almost nothing actually happened.”
 
