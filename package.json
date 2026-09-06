@@ -1,0 +1,9 @@
+{
+  "name": "markdown-pages-viewer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pure frontend Markdown document viewer for GitHub Pages",
+  "scripts": {
+    "build:index": "node scripts/generate-doc-index.mjs"
+  }
+}

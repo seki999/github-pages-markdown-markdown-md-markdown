@@ -1,0 +1,25 @@
+{
+  "projectName": "Markdown 文档中心",
+  "files": [
+    {
+      "path": "docs/README.md",
+      "title": "Markdown 文档中心"
+    },
+    {
+      "path": "docs/code-demo.md",
+      "title": "代码高亮示例"
+    },
+    {
+      "path": "docs/demo.md",
+      "title": "Markdown 完整语法示例"
+    },
+    {
+      "path": "docs/guides/relative-paths.md",
+      "title": "多层目录与相对图片"
+    },
+    {
+      "path": "docs/mermaid-demo.md",
+      "title": "Mermaid 图表示例"
+    }
+  ]
+}

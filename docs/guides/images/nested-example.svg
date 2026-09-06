@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" role="img" aria-labelledby="title">
+  <title id="title">嵌套目录相对路径解析成功</title>
+  <rect width="800" height="300" rx="22" fill="#161b22"/>
+  <circle cx="105" cy="150" r="52" fill="#238636"/>
+  <path d="m78 151 19 20 37-45" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="185" y="132" fill="#e6edf3" font-family="Segoe UI, sans-serif" font-size="28" font-weight="700">相对路径解析成功</text>
+  <text x="185" y="177" fill="#8b949e" font-family="Consolas, monospace" font-size="18">./images/nested-example.svg</text>
+</svg>
